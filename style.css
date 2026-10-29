@@ -7,3 +7,6 @@ body{background:#e9edf2}.sky{height:760px;background:linear-gradient(#77c9fa 0%,
 @media(max-width:800px){.sky{height:900px}.city{left:-150px;right:-150px;opacity:.7}.intro h1{font-size:38px}.c1{left:65%;top:145px;transform:scale(.6)}}
 @media(min-width:801px){.city{left:48%;bottom:300px;height:310px;padding-left:0;gap:9px}.building{min-width:28px}.building:nth-child(even){height:240px!important}.building:nth-child(3n){height:300px!important}}
 @media(max-width:800px){.city{left:48%;right:-220px;bottom:510px;height:200px;opacity:.45}}
+/* Flat illustrated CBD streetscape */
+.sky{height:850px;background:#a5daea url('city.svg') center top/cover no-repeat;border:0}.sky>.sun,.sky>.cloud,.sky>.city{display:none}.intro{background:linear-gradient(90deg,#d7eef4ed 0%,#d7eef4d9 40%,#d7eef400 75%);border-radius:20px;padding:28px 30px;margin:15px -5px 30px}.intro h1{text-shadow:none}.intro h1 span{color:#5c94ae;text-shadow:none}.selectors article,.launch,.stage,#db{background:#f8fafcf5;backdrop-filter:blur(4px)}
+@media(max-width:800px){.sky{height:900px;background-size:auto 750px;background-position:57% 0;background-color:#d7e5eb}.intro{padding:22px 20px;margin:8px 0 24px;background:#e2f2f6e6}.intro h1{font-size:36px}}
